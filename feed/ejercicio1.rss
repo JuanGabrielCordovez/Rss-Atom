@@ -2,22 +2,26 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
     <channel>
         <title>Tarea: Sindicacion de Contenidos (RSS)</title>
-		<link>https://juangabrielcordovez.github.io/Rss-Atom/feed/ejercicio1.rss</link>
+	    	<atom:link href="https://juangabrielcordovez.github.io/Rss-Atom/feed/ejercicio1.rss" rel="self" type="application/rss+xml"/>
+		<link>https://juangabrielcordovez.github.io/Rss-Atom</link>
 		<description>Canal de la tarea de Sindicacion de Contenidos</description>
 		<language>ES</language>
         <item>
 		    <title>Tiempo de Santa Cruz de Tenerife</title>
 		 	<link>http://www.eltiempo24.es/Santa_Cruz_de_Tenerife-ES0ST0038.html</link>
+			<guid>http://www.eltiempo24.es/Santa_Cruz_de_Tenerife-ES0ST0038.html</guid>
 		 	<description>Nos muestra el tiempo en Santa Cruz de Tenerife a traves de la web www.eltiempo24.es</description>
 		</item>
         <item>
 		    <title>Mi primera web</title>
 		 	<link>https://juangabrielcordovez.github.io/hostingWeb/index.html</link>
+			<guid>https://juangabrielcordovez.github.io/hostingWeb/index.html</guid>
 		 	<description>Mi primera web</description>
 		</item>
         <item>
 		    <title>Ordenadores cuánticos</title>
 		 	<link>https://www.xataka.com/investigacion/ordenadores-cuanticos-explicados-como-funcionan-que-problemas-pretenden-resolver-que-desafios-deben-superar-para-lograrlo</link>
+			<guid>https://www.xataka.com/investigacion/ordenadores-cuanticos-explicados-como-funcionan-que-problemas-pretenden-resolver-que-desafios-deben-superar-para-lograrlo</guid>
 		 	<description>Web que nos explica como funcionan los ordenadores cuanticos</description>
 		</item>
     </channel>
