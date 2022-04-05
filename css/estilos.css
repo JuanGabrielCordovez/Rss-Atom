@@ -1,0 +1,48 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    text-align: center;
+}
+main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 50 0 0 0;
+}
+h1{
+    font-size: 3rem;
+    text-shadow: 5px 5px 5px orange, 2px 2px 2px red;
+}
+#content{
+    display: flex;
+    align-items: center;
+    width: 70%;
+    margin: 80 0 80 0;
+}
+#content>div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 15px;
+    border-style: solid;
+    box-shadow: 10px 10px 10px;
+    width: 100%;
+    height: 100%;
+    margin: 0 10 0 10;
+}
+.icon{
+    width: 140px;
+    height: 140px;
+    margin: 20 20 20 20;
+}
+.valid{
+    width: 140px;
+    height: 50px;
+    margin: 0 20 0 20;
+}
+.icon:hover, .valid:hover{
+    transform: scale(110%);
+}
